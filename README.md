@@ -20,3 +20,22 @@ Tăng tốc quá trình phân tích dữ liệu: Tìm ra những xu hướng và
 Tạo nội dung chất lượng cao: Viết email, báo cáo, bài thuyết trình một cách chuyên nghiệp và hiệu quả.
 Học hỏi và khám phá: Tìm hiểu về các chủ đề mới, mở rộng kiến thức của bạn.
 Hãy để Add-in NXA trở thành người bạn đồng hành tin cậy của bạn trên hành trình chinh phục những đỉnh cao mới trong công việc!
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. NXA_AIMemories(text, [reset]) : Trò chuyện giống như chatbot Gemini có thể ghi nhớ các cuộc trò chuyện trước đó.
+- text: Đặt câu hỏi bạn muốn biết.
+- reset: Tùy chọn. Bắt đầu/Đặt lại phiên trò chuyện.
+  
+2. NXA_AskGemini(text, [word_count]) : Trả về kết quả cho câu hỏi bạn đã hỏi.
+- text: Câu hỏi bạn muốn hỏi
+- word_count: Tùy chọn. Chỉ định số lượng từ tối đa cho kết quả do Gemini tạo ra.
+  
+3. NXA_Chat() : Sẽ mở một UserForm để người dùng có thể trò chuyện với Gemini
+
+4. NXA_Extractor(prompt, keyword) : Trích xuất dữ liệu chính từ văn bản bạn cung cấp. Dữ liệu chính có thể là Tên, Địa điểm, Chi tiết tổ chức, v.v.
+- prompt: Chỉ định ô chứa văn bản mà bạn muốn trích xuất dữ liệu chính.
+- keyword: từ khóa có thể là tên, địa điểm, tổ chức, v.v.
+
+5. NXA_FillData(rng_existingdata, rng_fill) : Điền dữ liệu bị thiếu bằng cách đào tạo Gemini trên dữ liệu hiện có.
+- rng_existingdata : Phạm vi dữ liệu đào tạo
+- rng_fill : Chỉ định ô cần điền.
