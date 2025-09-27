@@ -55,9 +55,9 @@ Addin-NXA là tiện ích mã nguồn mở từ cộng đồng Việt, tích h�
 | 🏷️ Chức năng                     | 📝 Mô tả                                                                 | 💡 Cú pháp hàm                                                      | 📊 Kết quả                              |
 |----------------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------|----------------------------------------|
 | ❓ Hỏi đáp                       | Gửi câu hỏi đến Gemini.                                                | =NXA_AskGemini("Tổng doanh thu 2025?")                             | Ví dụ: 500 triệu VND                   |
-| 🌐 Dịch thuật                    | Dịch văn bản sang ngôn ngữ mong muốn.                                  | =NXA_AITranslator(A2, "vi")                                       | Ví dụ: Xin chào, bạn khỏe không?       |
+| 🌐 Dịch thuật                    | Dịch văn bản sang ngôn ngữ mong muốn.                                  | =NCC_AITranslator(A2, "vi")                                       | Ví dụ: Xin chào, bạn khỏe không?       |
 | 📊 Phân tích dữ liệu             | Sinh insight từ dữ liệu.                                               | =NXA_Insights(A1:B10, "Phân tích xu hướng")                       | Xu hướng tăng 15% quý 4                |
-| 💬 Trò chuyện ngữ cảnh           | Duy trì lịch sử hội thoại.                                             | =NXA_AIMemories("Xin chào, bạn nhớ tôi?", TRUE)                   | AI trả lời dựa trên ngữ cảnh trước      |
+| 💬 Trò chuyện ngữ cảnh           | Duy trì lịch sử hội thoại.                                             | =CF_AIMemories("Xin chào, bạn nhớ tôi?", TRUE)                   | AI trả lời dựa trên ngữ cảnh trước      |
 
 **Ví dụ**: Ô A1: "What is the capital of Vietnam?", ô B1: `=NXA_AskGemini(A1)` → Kết quả: "Hà Nội".
 
